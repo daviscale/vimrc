@@ -1,6 +1,8 @@
 # vimrc
 
 to install:
+First, visit [solarized](https://ethanschoonover.com/solarized/) and click on the download link.
+
 clone this repo
 
 cd into it
@@ -11,10 +13,11 @@ ln -s ~/vimrc/.vimrc ~/.config/nvim/init.vim
 mkdir ~/.vim/backup
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
+mkdir ~/.vim/colors
+cp ~/Downloads/solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors
 git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 nvim +PluginInstall +qall
 ```
-requires solarized colors in your terminal: http://ethanschoonover.com/solarized
 
 ## Notes
 
