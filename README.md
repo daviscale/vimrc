@@ -6,8 +6,8 @@ clone this repo
 cd into it
 ```
 brew install neovim/neovim/neovim
-ln -s ~/vimrc/.vimrc ~/.vimrc
-ln -s ~/vimrc/.vimrc ~/.config/nvim/init.vim
+ln -s .vimrc ~/.vimrc
+ln -s .vimrc ~/.config/nvim/init.vim
 mkdir ~/.vim/backup
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
