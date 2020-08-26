@@ -11,7 +11,7 @@ ln -s .vimrc ~/.config/nvim/init.vim
 mkdir ~/.vim/backup
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 nvim +PluginInstall +qall
 ```
 requires solarized colors in your terminal: http://ethanschoonover.com/solarized
