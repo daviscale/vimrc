@@ -51,11 +51,10 @@ syntax on
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 call togglebg#map("<F6>")
 set diffopt+=vertical
-set nowrap
 set clipboard=unnamed
 set nohlsearch
 set splitright
