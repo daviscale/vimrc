@@ -43,6 +43,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'dzeban/vim-log-syntax'
 Plugin 'othree/xml.vim'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'numkil/ag.nvim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
