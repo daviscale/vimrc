@@ -164,4 +164,4 @@ let g:NERDCustomDelimiters = {
 let g:session_autoload = 'no'
 
 au BufRead,BufNewFile *.go set noet ci pi sts=0 sw=2 ts=2
-
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
