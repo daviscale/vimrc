@@ -6,7 +6,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'beaushinkle/vim-mapping-syntax'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'derekwyatt/vim-scala'
@@ -42,7 +41,6 @@ Plugin 'mxw/vim-jsx'
 Plugin 'dzeban/vim-log-syntax'
 Plugin 'othree/xml.vim'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'numkil/ag.nvim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
