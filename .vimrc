@@ -55,7 +55,7 @@ set background=dark
 colorscheme solarized
 call togglebg#map("<F6>")
 set diffopt+=vertical
-set clipboard=unnamed
+set clipboard=unnamedplus
 set nohlsearch
 set splitright
 set backupdir=~/.vim/backup//
