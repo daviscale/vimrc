@@ -41,6 +41,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'dzeban/vim-log-syntax'
 Plugin 'othree/xml.vim'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'elmcast/elm-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -163,3 +164,5 @@ let g:session_autoload = 'no'
 
 au BufRead,BufNewFile *.go set noet ci pi sts=0 sw=2 ts=2
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+
+
