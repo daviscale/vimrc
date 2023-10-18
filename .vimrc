@@ -21,7 +21,7 @@ Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-sensible'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
+Plugin 'derekwyatt/vim-scala'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
